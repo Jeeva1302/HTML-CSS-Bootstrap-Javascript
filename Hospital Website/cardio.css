@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.branch div h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #029ac4;
+}
+.branch div h2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdfdfe;
+    font-weight: bold;
+}
+
+
+.branch div p{
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.txt{
+    padding-top: 150px;
+}
+
+.branch div button:hover{
+    color: rgb(255, 255, 255);
+}
+.branch div .info{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+   
+}
+
+.img_txt{
+    background-image: url("Cardiology_hero_0.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    
+    
+}
+.info{
+    margin-left: 480px;
+}
+

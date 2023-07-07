@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.branch div h1{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #029ac4;
+}
+.branch div h2{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdfdfe;
+}
+
+
+.spinep{
+    margin: 10px;
+    padding: 0px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
+.txt{
+    padding-top: 150px;
+}
+.info{
+     margin-left: 480px;
+
+}
+
+.branch div button:hover{
+    
+    color: rgb(255, 255, 255);
+}
+
+
+
+.img_txt{
+    background-image: url("spine.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
