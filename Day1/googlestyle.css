@@ -1,0 +1,22 @@
+*
+{
+    background-color: rgb(48, 44, 44);
+}
+.googlehead
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    height: 100%;
+    margin-top: auto;
+
+
+}
+.headpart
+{
+    background-color: rgba(32,33,36,1);
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    display: inline-block;
+}
