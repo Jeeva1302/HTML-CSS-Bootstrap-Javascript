@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <title>Registeration</title>
+    <head>
+       <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-shadow: 2cm;">Student Registration Room</h1>
+    </head>
+    <body>
+        <form style="text-align: center;">
+            <fieldset style="background-color:rgb(85, 139, 154);">
+                <legend>Enter your details</legend><br>
+                <label for="fn">First name:</label>
+                <input type="text" id="fn" required ><br><br>
+                <label for="mn">Middle name:</label>
+                <input type="text" id="mn"><br><br>
+                <label for="ln">Last name:</label>
+                <input type="text" id="ln" required><br><br>
+                <label for="fan">Father name:</label>
+                <input type="text" id="fan"><br><br>
+                <label for="m">Gender:</label>
+                <input type="radio" id="m" name="gen"><label for="m">Male</label>
+                <input type="radio" id="f" name="gen"><label for="f">Female</label><br><br>
+                <label for="dob">Dateofbirth:</label>
+                <input type="date" id="dob" required><br><br>
+                <label for="tadd">Temporary Address:</label>
+                <textarea id="tadd" ></textarea><br><br>
+                <label for="padd">Permenant Address:</label>
+                <textarea id="tadd" required></textarea><br><br>
+                <label for="no">Contact Number:</label>
+                <input type="Number" id="no" maxlength="10" min="0" max="9" required><br><br>
+                <label for="eid">Email Id:</label>
+                <input type="email" id="eid" required><br><br>
+                <label>Hobbies:</label><br>
+                <input type="checkbox" id="r" name="hob"><label for="r">Reading</label>
+                <input type="checkbox" id="s" name="hob"><label for="s">Playing</label>
+                <input type="checkbox" id="w" name="hob"><label for="w">writting</label><br><br>
+                <label for="exc">Extracurricular Activities:</label>
+                <select name="exc" id="exc">
+                  <option value="SPORTS">SPORTS</option>
+                  <option value="NCC">NCC</option>
+                  <option value="JRC">JRC</option>
+                  <option value="YOGA">YOGA</option>
+                </select><br><br>
+                <input type="checkbox" id="p" required><label for="p">I Hereby Declare that the furnished above details are true to the best of my knowledge</label><br><br>
+                <button type="button" onclick="alert('Registeration successfully done')">Submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
